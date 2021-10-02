@@ -4,13 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d48f5954-d5e2-409b-9449-50a7e283b2b2" name="Changes" comment="" />
+    <list default="true" id="812b548a-4ab4-44df-9d15-cb8a4d7b87cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../cliente/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente/target/classes/com/example/cliente/HelloApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/target/classes/com/example/cliente/HelloApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1yt1hFe6WRzblqVIqLVZod7gAWu" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="azul-11" />
+  </component>
+  <component name="ProjectId" id="1ypTmqEiz6r7HCzvEWxFrosz8BH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,20 +37,66 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Google Drive/IdeaProjects/proyecto2" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alx-pc\IdeaProjects\proyecto2\src\main\modelo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HelloApplication">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.proyecto2.HelloApplication" />
+      <module name="proyecto2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.proyecto2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in proyecto2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proyecto2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="JUnit.All in proyecto2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d48f5954-d5e2-409b-9449-50a7e283b2b2" name="Changes" comment="" />
-      <created>1633056191060</created>
+      <changelist id="812b548a-4ab4-44df-9d15-cb8a4d7b87cc" name="Changes" comment="" />
+      <created>1632947693329</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1633056191060</updated>
+      <updated>1632947693329</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

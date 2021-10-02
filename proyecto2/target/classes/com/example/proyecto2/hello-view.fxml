@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="587.0" prefWidth="574.0" spacing="20.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyecto2.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="mostrartexto" maxWidth="1.7976931348623157E308" prefHeight="349.0" prefWidth="534.0" />
+   <HBox prefHeight="100.0" prefWidth="200.0">
+      <children>
+         <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onAbrirButtonClick" prefWidth="200.0" text="Abrir Parqueo y Asignar">
+            <font>
+               <Font name="AdobeArabic-Regular" size="13.0" />
+            </font>
+         </Button>
+         <Separator orientation="VERTICAL" />
+         <TextField fx:id="cantidadparqueos" maxWidth="1.7976931348623157E308" onKeyTyped="#ingresouser" prefHeight="26.0" prefWidth="99.0" promptText="# Parqueos" />
+      </children>
+   </HBox>
+   <HBox maxWidth="1.7976931348623157E308">
+      <children>
+         <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onAsigVehiButtonClick" prefHeight="26.0" prefWidth="146.0" text="Ingresar un Vehiculo" />
+         <Separator orientation="VERTICAL" />
+         <TextField fx:id="inparqueo" maxWidth="1.7976931348623157E308" onKeyTyped="#ingresouser" prefHeight="26.0" prefWidth="80.0" promptText="# de parqueo" />
+         <TextField fx:id="inmatricula" maxWidth="1.7976931348623157E308" onKeyTyped="#ingresouser" prefHeight="26.0" prefWidth="80.0" promptText="Matricula" />
+         <TextField fx:id="inmodelo" maxWidth="1.7976931348623157E308" onKeyTyped="#ingresouser" prefHeight="26.0" prefWidth="80.0" promptText="Modelo" />
+         <TextField fx:id="incolor" maxWidth="1.7976931348623157E308" onKeyTyped="#ingresouser" prefHeight="26.0" prefWidth="80.0" promptText="Color" />
+         <TextField fx:id="intipo" maxWidth="1.7976931348623157E308" onKeyTyped="#ingresouser" prefHeight="26.0" prefWidth="80.0" promptText="Tipo" />
+      </children>
+   </HBox>
+   <HBox maxWidth="1.7976931348623157E308">
+      <children>
+         <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onRetVehiButtonClick" prefWidth="200.0" text="Retirar  Vehiculo" />
+         <Separator orientation="VERTICAL" />
+         <TextField fx:id="retirarvehiculo" maxWidth="1.7976931348623157E308" onKeyTyped="#ingresouser" prefHeight="26.0" prefWidth="99.0" promptText="# de parqueo" />
+      </children>
+   </HBox>
+   <HBox maxWidth="1.7976931348623157E308">
+      <children>
+         <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onAsigCobButtonClick" prefWidth="200.0" text="Asignar Monto" />
+         <Separator orientation="VERTICAL" />
+         <TextField fx:id="cobro" maxWidth="1.7976931348623157E308" onKeyTyped="#ingresouser" prefHeight="26.0" prefWidth="99.0" promptText="Costo Por hora" />
+         <Separator orientation="VERTICAL" />
+         <Button mnemonicParsing="false" onAction="#onMostrarButtonClick" text="Mostrar Parqueo" />
+      </children>
+      <VBox.margin>
+         <Insets />
+      </VBox.margin>
+   </HBox>
+   <Button mnemonicParsing="false" onAction="#onCambDatVehiButtonClick" text="Cambiar datos  -&gt; asignacion al 1" />
+   <ToggleButton maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onCerrarButtonClick" text="Cerrar Parqueo" />
+   <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onSrvrButtonClick" text="Encender Servidor" />
+</VBox>
